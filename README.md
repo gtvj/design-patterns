@@ -15,3 +15,18 @@ product***
 An abstract factory contains one or more factory methods to create a family of
 related object. This pattern is about creating ***families of related products
 ***
+
+### Singleton
+
+Permits only one object to be instantiated. This can be useful for such things
+as creating a cache of information to be shared by various elements on the
+system. In this way a singleton would act as a kind of object oriented 'global'
+variable.
+
+Singleton is a good candidate in several scenarios:
+
+* you need to control concurrent access to a shared resource (such as a the
+  current state of a UI)
+* you need a global point of access for the resource from multiple parts of the
+  system
+* if you need to have only one instance (such as a database connection)
