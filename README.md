@@ -30,3 +30,10 @@ Singleton is a good candidate in several scenarios:
 * you need a global point of access for the resource from multiple parts of the
   system
 * if you need to have only one instance (such as a database connection)
+
+### Module
+
+Allows for the implementation of software modules in a programming language with incomplete support for the concept (such as ES5). This repository has examples of: 
+
+* Revealing module as a singleton (which allows for only one instance of a module)
+* Revealing module as a constructor (which allows for multiple instances of a module)
